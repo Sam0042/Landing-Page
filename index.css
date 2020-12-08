@@ -1,0 +1,232 @@
+body{
+    font-family: monospace;
+    color: black;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+@font-face {
+    font-family: "whyte";
+    src: url("whyte/whyte.eot");
+    src: url("whyte/whyte-black-webfont.woff") format("woff"),
+    url("whyte/whyte.ttf") format("opentype"),
+    url("whyte/whyte-black-webfont.woff2") format("woff2");
+    }
+.container{
+    margin: 40px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.container02{
+    margin: 40px;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background: linear-gradient(to right,#ffeb3b,#ffff72 ); 
+    color: black;
+    padding-top: 30px;
+    min-width: 70px; ;
+    border-bottom: #ffff8b 3px solid;
+}
+header #logo{
+    float: left;
+}
+header #logo h1{
+    margin: 0;
+    font-size: 40px;
+    
+}
+header nav{
+   float: right; 
+   margin-top: 10px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+header #logo, header .menu a{
+    font-weight: bold;
+}
+header a:hover{
+    color: #ffb2dd;
+    font-weight: bold;
+}
+#page{
+    min-height: 700px;
+    text-align: center;
+    color: black;
+    background: url(unsplash2.jpg) no-repeat 0px -70px ;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+#page h1{
+    margin-top: 120px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px gray;
+    font-size: 80px;
+}
+#page p{
+    font-size: 20px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#page01{
+    min-height: 700px;
+    text-align: center;
+    color: black;
+    background: url(unsplash4.jpg) no-repeat 0px -70px ;
+    background-size: 100%;
+}
+
+#page01 h1{
+    margin-top: 120px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px gray;
+    font-size: 80px;
+}
+#page01 p{
+    font-size: 20px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#page02{
+    min-height: 700px;
+    text-align: center;
+    color: black;
+    background: url(unsplash5.jpg) no-repeat 0px -70px ;
+    background-size: 100%;
+    background-size: cover;
+}
+#page02 h1{
+    margin-top: 120px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px gray;
+    font-size: 80px;
+}
+#page02 p{
+    font-size: 20px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#kata1{
+    padding-top: 30px;
+    min-width: 70px; ;
+    margin-top: 10px;
+    background: linear-gradient(to right,#ffff72, #ffeb3b); 
+}
+#kata1 h1{
+    font-family: 'whyte', Arial, sans-serif;
+    font-weight:900;
+    font-style:normal;
+    color: black;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    margin: 10px;
+    font-size: 80px;
+}
+#konten{
+    margin-top: 50px;
+}
+#konten .foto{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#konten .foto p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#konten .foto img{
+    width: 150px;
+}
+footer{
+    font-family: Arial, Helveti;
+    font-size: 10px;
+    padding: 20px;
+    margin-top: 100px;
+    color: black;
+    text-align: center;
+}
+#login{
+    padding: 15px;
+}
+#login form{
+    margin-top: 20px;
+}
+#login input, .submit{
+    margin: 40px;
+    width: 30%;
+    margin: auto;
+    overflow: hidden;
+    padding: 4px;
+    height: 25px;
+    margin-top: 10px;
+}
+#login .submit{
+    margin-top: 15px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    
+}
+
+@media only screen and (max-width:768px){
+    header #logo,
+    header nav,
+    header nav li,
+    #page h1,
+    #page p,
+    #konten .foto,
+    #login h1
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #login input, .submit{
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #page h1,#page01 h1, #login h1{
+        margin-top: 40px;
+    }
+    #page h1{
+        padding: 10px;
+    }
+    #kata1{
+        margin-top: 0;
+    }
+    #page{
+        background-size: 150% 100%;
+    }
+    #page01{
+        background-size: 150% 100%;
+        background-position: center;
+    }
+    #page02{
+        background-size: 150% 100%;
+        background-position: center;
+    }
+
+}
